@@ -1,7 +1,7 @@
 from turtle import Turtle
 import random
 
-
+#create ball class
 class Ball(Turtle):
     def __init__(self):
         super().__init__()

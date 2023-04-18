@@ -3,7 +3,7 @@ from turtle import Turtle
 Down = 270
 Up = 90
 
-
+#create paddle class
 class Paddle(Turtle):
     def __init__(self, position):
         super().__init__()
